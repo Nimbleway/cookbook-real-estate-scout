@@ -36,6 +36,19 @@ If missing: direct the user to https://git-scm.com
 
 ## Step 2: Clone the repo
 
+Check whether the repo is already cloned locally:
+
+```bash
+ls cookbook-real-estate-scout
+```
+
+**If the directory exists** — navigate into it and pull the latest:
+```bash
+cd cookbook-real-estate-scout
+git pull
+```
+
+**If it does not exist** — clone it:
 ```bash
 git clone https://github.com/Nimbleway/cookbook-real-estate-scout
 cd cookbook-real-estate-scout
